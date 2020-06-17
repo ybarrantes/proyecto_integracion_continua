@@ -16,3 +16,5 @@ RUN apt-get update \
     && echo "AllowEncodedSlashes On" >> /etc/apache2/apache2.conf
 
 WORKDIR /var/www
+
+RUN php artisan migrate

@@ -64,6 +64,11 @@ header .menu .c-3:hover { background: #002d44; }
 	padding: 0;
 }
 
+.slider .col .carousel-inner{
+	height: 390 px;
+	width: 1024 px;
+}
+
 /* --- PORTAFOLIO --- */
 .portafolio {
 	background: #fff;
